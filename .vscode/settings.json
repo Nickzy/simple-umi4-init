@@ -1,0 +1,96 @@
+{
+  // "editor.fontSize": 12,
+  // 设置全部语言在保存时自动格式化
+  "editor.formatOnSave": true,
+  // 设置全部语言的默认格式化程序为 prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // prettier 插件配置的公共规则
+  "prettier.semi": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.singleQuote": false,
+  "prettier.tabWidth": 2,
+  // 配置 VScode 使用 prettier 的 formatter
+  // "[vue]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // 设置特定语言 JavaScript 的默认格式化程序为 prettier，并设置在保存时自动格式化
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // vue 文件使用 vetur 作为默认格式化工具
+  // "[vue]": {
+  //   "editor.defaultFormatter": "octref.vetur",
+  //   "editor.formatOnSave": true
+  // },
+  // vetur 把格式化 JavaScript 文件交给 prettier 处理
+  // "vetur.format.defaultFormatter.js": "prettier",
+  // "vetur.format.defaultFormatterOptions": {
+  //   // vetur 使用的 prettier 的规则，此处的规则比上面设置的公共规则优先级高
+  //   "prettier": {
+  //     "semi": false,
+  //     "singleQuote": true
+  //   }
+  // },
+  //指定哪些文件不参与搜索
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/*.log": true,
+    "**/*.log*": true,
+    "**/bower_components": true,
+    "**/dist": true,
+    "**/elehukouben": true,
+    "**/.git": true,
+    "**/.gitignore": true,
+    "**/.svn": true,
+    "**/.DS_Store": true,
+    "**/.idea": true,
+    "**/.vscode": false,
+    "**/yarn.lock": true,
+    "**/tmp": true,
+    "out": true,
+    "dist": true,
+    "node_modules": true,
+    "CHANGELOG.md": true,
+    "examples": true,
+    "res": true,
+    "screenshots": true,
+    "yarn-error.log": true,
+    "**/.yarn": true
+  },
+  // 指定哪些文件不被 VSCode 监听，预防启动 VSCode 时扫描的文件太多，导致 CPU 占用过高
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/.vscode/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/bower_components/**": true,
+    "**/dist/**": true,
+    "**/yarn.lock": true
+  }
+}

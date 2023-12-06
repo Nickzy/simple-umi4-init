@@ -1,0 +1,13 @@
+// 继承插件
+{
+  "recommendations": [
+    // "vue.volar",
+    // "vue.vscode-typescript-vue-plugin",
+    // "dbaeumer.vscode-eslint",
+    // "stylelint.vscode-stylelint",
+    "esbenp.prettier-vscode",
+    // "editorconfig.editorconfig",
+    "dsznajder.es7-react-js-snippets",
+    "ritwickdey.liveserver"
+  ]
+}

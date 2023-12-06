@@ -1,5 +1,4 @@
-export default function Home () {
-  return <div>
-    我是首页
-  </div>
+export default function Home() {
+  const str = "111";
+  return <div className="ee">我是首页</div>;
 }
